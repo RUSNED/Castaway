@@ -1,17 +1,16 @@
 @import url(../vendor/normalize.css);
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 
 @import url(../blocks/page/page.css);
 
 .header-container {
-    max-width: 1440px;
-    max-height:67px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 22px;
-
+  max-width: 1440px;
+  max-height: 67px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 22px;
 }
 
 .header-container_image {
@@ -23,45 +22,83 @@
 }
 
 .header-container-contacts {
-   min-width: 403px;
-   padding-right: 50px;
+  min-width: 403px;
+  padding-right: 50px;
 }
 
 .header-container-contacts_list {
-    display: flex;
-    margin: 0px auto;
-    flex-direction: row;
-    gap: 40px;
-    padding: 20px;
-    color: white;
-    font-size: 17px;    
-    line-height: 27px;
-    font-family: DM Sans;
-    list-style: none;
+  display: flex;
+  margin: 0px auto;
+  flex-direction: row;
+  gap: 40px;
+  padding: 20px;
+  color: white;
+  font-size: 17px;
+  line-height: 27px;
+  font-family: DM Sans;
+  list-style: none;
+}
+
+.header-container-contacts_list__item {
+  text-decoration: none;
+  color: inherit;
 }
 .header-container-contacts_list li:first-child {
-    color: rgba(17, 141, 168, 1);
+  color: rgba(17, 141, 168, 1);
 }
 
 .header-container-contacts_list:last-child {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .cover {
-    padding-top: 26px;
+  padding-top: 26px;
 }
 
 .cover-container {
-   display: flex;
-   flex-direction: row;
-   padding: 40px 70px 0px 70px;
+  display: flex;
+  padding: 40px 70px;
 }
 
 .cover-container_image {
-    max-width: 650px;
+  max-width: 650px;
 }
 
 .cover-container_content {
-    padding: 131.42px 60px 131.44px 60px;
-    
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
 }
+
+.cover-header {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  color: white;
+  padding: 0px 60px 131.44px 60px;
+  margin: 0;
+}
+
+.cover-header_underline {
+  display: inline-block;
+  position: relative;
+}
+
+.cover-header_underline::after {
+    content: "";
+    background-image: url(../images/underline.png);
+    width: 100%;
+    height: 11px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+.cover-header_bold {
+    font-weight: 700;
+}
+
+
