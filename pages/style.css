@@ -14,7 +14,7 @@
 }
 
 .header-container_image {
-  width: 160px;
+  max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,13 +61,14 @@
 }
 
 .cover-container_image {
-  max-width: 650px;
+  max-width: 100%;
 }
 
 .cover-container_content {
   display: flex;
-  align-items: flex-end;
   margin: 0;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .cover-header {
@@ -75,9 +76,9 @@
   font-weight: 400;
   font-size: 70px;
   line-height: 88px;
-  letter-spacing: 3.2px;
+  letter-spacing: 0.1em;
   color: white;
-  padding: 0px 60px 131.44px 60px;
+  padding: 0px 60px 0px 60px;
   margin: 0;
 }
 
@@ -94,11 +95,64 @@
     bottom: 0;
     left: 0;
     position: absolute;
-
+    letter-spacing: 0.1em;
 }
 
 .cover-header_bold {
     font-weight: 700;
 }
 
+.cover-listen {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 153px 82px;
+}
+
+.cover-listen_text {
+    font-family: DM Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color: white;
+margin: 0;
+}
+
+.cover-listen_buttons {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+}
+.cover-listen_list {
+
+}
+
+.cover-listen_button {
+ display: block;
+ width: 32px;
+ height: 32px;
+ margin-right: 16px;
+}
+
+.cover-listen_button__spotify {
+ background-image: url(../images/spotify.png);
+}
+
+.cover-listen_button__red {
+ background-image: url(../images/redaudio.png);
+}
+
+.cover-listen_button__soundcloud {
+ background-image: url(../images/sin.png);
+}
+
+.cover-listen_button__podcast {
+ background-image: url(../images/podcast.png);
+}
+
+.cover-listen_button__radio {
+  background-image: url(../images/radio.png);
+}
 
