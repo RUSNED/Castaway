@@ -287,6 +287,7 @@
 
 .hero {
   max-width: 1440px;
+  padding-bottom: 100px;
 }
 
 .hero-container {
@@ -461,3 +462,48 @@ font-weight: 400;
 line-height: 28.8px;
 padding: 26px 0px 27px 19px;
 }
+
+
+.reviews_cards {
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 321px 364px;
+    grid-gap: 16px 16px;
+    padding: 100px 70px;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .review_card {
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border-radius: 32px;
+  }
+  .reviews_stars {
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    padding: 54px 0px 21px 50px;
+    gap: 5px;
+  }
+  .reviews_header {
+    font-family: DM Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 43.2px;
+color: rgba(255, 255, 255, 1);
+margin: 0;
+padding: 0px 48px 19px 50px;
+letter-spacing: 0.04em;
+  }
+
+  .reviews_author {
+    font-family: DM Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+color: rgba(255, 255, 255, 0.7);
+margin: 0;
+padding-left: 50px;
+  }
