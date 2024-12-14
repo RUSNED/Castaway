@@ -130,8 +130,6 @@
   margin: 0;
   margin-top: 16px;
 }
-.cover-listen_list {
-}
 
 .cover-listen_button {
   display: block;
@@ -384,15 +382,14 @@
 }
 
 .hero_header_card {
-    font-family: DM Sans;
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 79.2px;  
+  font-family: DM Sans;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 79.2px;
   letter-spacing: 0.1em;
   color: white;
   margin: 0;
   padding: 0px 151px 0px 60px;
-
 }
 
 .hero_button {
@@ -410,100 +407,168 @@
 }
 
 .hero_form {
-    padding: 59.87px 60px 75.12px 76px;
-
+  padding: 59.87px 60px 75.12px 76px;
 }
 .hero_form_class {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .name_form {
-    width: 522px;
-    height: 82px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background-color: rgba(25, 25, 25, 1);
-    border-radius: 1px;
-    color: white;
-    font-family: DM Sans;
-font-size: 24px;
-font-weight: 400;
-line-height: 28.8px;
+  width: 522px;
+  height: 82px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: rgba(25, 25, 25, 1);
+  border-radius: 1px;
+  color: white;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
 }
 
 .email_form {
-    width: 522px;
-    height: 82px;
-    margin: 0px;
-    padding: 0;
-    border: 0;
-    background-color: rgba(25, 25, 25, 1);
-    border-radius: 1px;
+  width: 522px;
+  height: 82px;
+  margin: 0px;
+  padding: 0;
+  border: 0;
+  background-color: rgba(25, 25, 25, 1);
+  border-radius: 1px;
 }
 
 .name_form::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: DM Sans;
-font-size: 24px;
-font-weight: 400;
-line-height: 28.8px;
-padding: 26px 0px 27px 19px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  padding: 26px 0px 27px 19px;
 }
-
 
 .email_form::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: DM Sans;
-font-size: 24px;
-font-weight: 400;
-line-height: 28.8px;
-padding: 26px 0px 27px 19px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  padding: 26px 0px 27px 19px;
+}
+
+.reviews_cards {
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 321px 364px;
+  grid-gap: 16px 16px;
+  padding: 100px 70px;
+  margin: 0;
+  list-style: none;
+}
+
+.review_card {
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+  border-radius: 32px;
+}
+.reviews_stars {
+  display: flex;
+  flex-direction: row;
+  width: 90px;
+  padding: 54px 0px 21px 50px;
+  gap: 5px;
+}
+.reviews_header {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  padding: 0px 48px 19px 50px;
+  letter-spacing: 0.04em;
+}
+
+.reviews_author {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  padding-left: 50px;
+}
+
+.footer_container {
+  padding: 99.88px 70px 120px 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding-right: 223.14px;
 }
 
 
-.reviews_cards {
-    max-width: 1300px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 321px 364px;
-    grid-gap: 16px 16px;
-    padding: 100px 70px;
-    margin: 0;
-    list-style: none;
-  }
-  
-  .review_card {
-    background-color: rgba(0, 0, 0, 1);
-    color: #fff;
-    border-radius: 32px;
-  }
-  .reviews_stars {
-    display: flex;
-    flex-direction: row;
-    width: 90px;
-    padding: 54px 0px 21px 50px;
-    gap: 5px;
-  }
-  .reviews_header {
-    font-family: DM Sans;
-font-size: 36px;
-font-weight: 400;
-line-height: 43.2px;
-color: rgba(255, 255, 255, 1);
-margin: 0;
-padding: 0px 48px 19px 50px;
-letter-spacing: 0.04em;
-  }
+.footer-social_logo_insta {
+background-image: url(../images/insta.svg);
+width: 24px;
+height: 24px;
+}
+.footer-social_logo_twitter {
+background-image: url(../images/twitter.svg);
+width: 24px;
+height: 24px;
+}
 
-  .reviews_author {
-    font-family: DM Sans;
-font-size: 24px;
-font-weight: 400;
-line-height: 28.8px;
-color: rgba(255, 255, 255, 0.7);
-margin: 0;
-padding-left: 50px;
-  }
+.footer-social_logo_facebook {
+background-image: url(../images/facebook.svg);
+width: 24px;
+height: 24px;
+}
+
+.footer_social {
+ 
+}
+.footer_social_list {
+    width: 24px;
+    height: 24px;
+    display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+}
+
+.footer_home_list,
+.footer_style_list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+.footer_list_item {
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.footer_home_list {
+  padding-right: 107px;
+}
+
+.cover-listen_buttons_footer {
+  margin: 0px 0px 0px 0px;
+  padding-left: 16px;
+}

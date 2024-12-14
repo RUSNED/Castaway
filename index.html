@@ -10,7 +10,7 @@
 
   <body>
     <div class="page">
-      <header class="header">
+      <header id="header"  class="header">
         <div class="header-container">
           <img
             src="./images/logo.svg"
@@ -20,22 +20,22 @@
           <div class="header-container-contacts">
             <ul class="header-container-contacts_list">
               <li>
-                <a href="#" class="header-container-contacts_list__item"
+                <a href="#header" class="header-container-contacts_list__item"
                   >Home</a
                 >
               </li>
               <li>
-                <a href="#" class="header-container-contacts_list__item"
+                <a href="#episodes" class="header-container-contacts_list__item"
                   >Episodes</a
                 >
               </li>
               <li>
-                <a href="#" class="header-container-contacts_list__item"
+                <a href="#hero" class="header-container-contacts_list__item"
                   >About</a
                 >
               </li>
               <li>
-                <a href="#" class="header-container-contacts_list__item"
+                <a href="#footer" class="header-container-contacts_list__item"
                   >Contact</a
                 >
               </li>
@@ -45,7 +45,7 @@
       </header>
 
       <main class="main">
-        <section class="cover">
+        <section id="cover" class="cover">
           <div class="cover-container">
             <img
               src="./images/cover_img.png"
@@ -64,7 +64,7 @@
                   <li class="cover-listen_button">
                     <a
                       href="#"
-                      class="cover-listen_buttoncover-listen_button__spotify"
+                      class="cover-listen_button cover-listen_button__spotify"
                       aria-label="Spotify"
                     ></a>
                   </li>
@@ -102,7 +102,7 @@
           </div>
         </section>
 
-        <section class="episodes">
+        <section id="episodes" class="episodes">
           <div class="episodes_container">
             <div class="episodes_container__header">
               <h2 class="episodes_header">Latest episodes</h2>
@@ -168,7 +168,7 @@
           </div>
         </section>
 
-        <section class="hero">
+        <section id="hero" class="hero">
           <div class="hero-container">
             <div class="hero-container_content">
               <img src="./images/Frame.png" class="hero_frame" alt="frame" />
@@ -197,89 +197,202 @@
               </div>
               <div class="hero_form">
                 <form class="hero_form_class" method="get">
-                      <input class="name_form" type="text" name="name" id="name" placeholder="Name">
-                      <input class="email_form"type="email" name="email" id="email" placeholder="Email">
-                    <button class="hero_button">Submit</button>
-                  </form>
+                  <input
+                    class="name_form"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                  />
+                  <input
+                    class="email_form"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                  <button class="hero_button">Submit</button>
+                </form>
               </div>
             </div>
           </div>
         </section>
-        <section class="reviews">
-            <div class="reviews_container">
-                <ul class="reviews_cards">
-                    <li class="review_card">
-<div class="reviews_stars">
-    <img src="./images/star.svg" class="image_star" alt="star">
-    <img src="./images/star.svg" class="image_star" alt="star">
-    <img src="./images/star.svg" class="image_star" alt="star">
-    <img src="./images/star.svg" class="image_star" alt="star">
-    <img src="./images/star.svg" class="image_star" alt="star">
-</div>
-<h4 class="reviews_header">I can’t recommend this podcast enough</h4>
-<p class="reviews_author">Betty Lacey</p>
-                    </li>
-                    <li class="review_card">
-                        <div class="reviews_stars">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                        </div>
-                        <h4 class="reviews_header">Jacob is the best in the business</h4>
-                        <p class="reviews_author">Adam Driver</p>
-                    </li>
-                    <li class="review_card">
-                        <div class="reviews_stars">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                        </div>
-                        <h4 class="reviews_header">A wealth of audio knowledge</h4>
-                        <p class="reviews_author">Marcus Brown</p>
-                    </li>
-                    <li class="review_card">
-                        <div class="reviews_stars">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                        </div>
-                        <h4 class="reviews_header">Every episode is a gem!</h4>
-                        <p class="reviews_author">Jessica Knowl</p>
-                    </li>
-                    <li class="review_card">
-                        <div class="reviews_stars">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                        </div>
-                        <h4 class="reviews_header">Whoa whoa, let me take some notes!</h4>
-                        <p class="reviews_author">Betty Lacey</p>
-                    </li>
-                    <li class="review_card">
-                        <div class="reviews_stars">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                            <img src="./images/star.svg" class="image_star" alt="star">
-                        </div>
-                        <h4 class="reviews_header">I’ve upped my game considerably since I started listening</h4>
-                        <p class="reviews_author">Steven Blast</p>
-                    </li>
-                </ul>
-            </div>
+        <section id="reviews" class="reviews">
+          <div class="reviews_container">
+            <ul class="reviews_cards">
+              <li class="review_card">
+                <div class="reviews_stars">
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                </div>
+                <h4 class="reviews_header">
+                  I can’t recommend this podcast enough
+                </h4>
+                <p class="reviews_author">Betty Lacey</p>
+              </li>
+              <li class="review_card">
+                <div class="reviews_stars">
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                </div>
+                <h4 class="reviews_header">
+                  Jacob is the best in the business
+                </h4>
+                <p class="reviews_author">Adam Driver</p>
+              </li>
+              <li class="review_card">
+                <div class="reviews_stars">
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                </div>
+                <h4 class="reviews_header">A wealth of audio knowledge</h4>
+                <p class="reviews_author">Marcus Brown</p>
+              </li>
+              <li class="review_card">
+                <div class="reviews_stars">
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                </div>
+                <h4 class="reviews_header">Every episode is a gem!</h4>
+                <p class="reviews_author">Jessica Knowl</p>
+              </li>
+              <li class="review_card">
+                <div class="reviews_stars">
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                </div>
+                <h4 class="reviews_header">
+                  Whoa whoa, let me take some notes!
+                </h4>
+                <p class="reviews_author">Betty Lacey</p>
+              </li>
+              <li class="review_card">
+                <div class="reviews_stars">
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                  <img src="./images/star.svg" class="image_star" alt="star" />
+                </div>
+                <h4 class="reviews_header">
+                  I’ve upped my game considerably since I started listening
+                </h4>
+                <p class="reviews_author">Steven Blast</p>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
-
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer_container">
+          <div class="footer_logo">
+            <img
+              src="./images/footetlogo.svg"
+              alt="logo"
+              class="footer_logo_image"
+            />
+            <div class="footer_social">
+                <ul class="footer_social_list">
+                <li><a href="#" class="footer-social_logo_insta"></a></li>
+                <li><a href="#" class="footer-social_logo_twitter"></a></li>
+                <li><a href="#" class="footer-social_logo_facebook"></a></li>
+            </ul>
+            </div>
+          </div>
+          <div class="footer_home">
+            <ul class="footer_home_list">
+              <li>
+                <a href="#header" class="footer_list_item">Home</a>
+              </li>
+              <li>
+                <a href="#hero" class="footer_list_item">About</a>
+              </li>
+              <li>
+                <a href="#episodes" class="footer_list_item">Episodes</a>
+              </li>
+              <li>
+                <a href="#footer" class="footer_list_item">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_style">
+            <ul class="footer_style_list">
+              <li>
+                <a href="#" class="footer_list_item">Style Guide</a>
+              </li>
+              <li>
+                <a href="#" class="footer_list_item">Instructions</a>
+              </li>
+              <li>
+                <a href="#" class="footer_list_item">Changelog</a>
+              </li>
+              <li>
+                <a href="#" class="footer_list_item">Credit</a>
+              </li>
+              <li>
+                <a href="#" class="footer_list_item">Powered by Webflow</a>
+              </li>
+              <li>
+                <a href="#" class="footer_list_item">Licenses</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_links">
+            <ul class="cover-listen_buttons cover-listen_buttons_footer">
+              <li class="cover-listen_button">
+                <a
+                  href="#"
+                  class="cover-listen_button cover-listen_button__spotify"
+                  aria-label="Spotify"
+                ></a>
+              </li>
+              <li class="cover-listen_button">
+                <a
+                  href="#"
+                  class="cover-listen_button cover-listen_button__red"
+                  aria-label="Red"
+                ></a>
+              </li>
+              <li class="cover-listen_button">
+                <a
+                  href="#"
+                  class="cover-listen_button cover-listen_button__soundcloud"
+                  aria-label="Soundcloud"
+                ></a>
+              </li>
+              <li class="cover-listen_button">
+                <a
+                  href="#"
+                  class="cover-listen_button cover-listen_button__podcast"
+                  aria-label="Podcast"
+                ></a>
+              </li>
+              <li class="cover-listen_button">
+                <a
+                  href="#"
+                  class="cover-listen_button cover-listen_button__radio"
+                  aria-label="Radio"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
