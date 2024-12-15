@@ -5,7 +5,7 @@
 
 .cover__header_underline::after {
   content: "";
-  background-image: url(../images/underline.png);
+  background-image: url(../../../../images/underline.png);
   width: 100%;
   height: 11px;
   bottom: 0;

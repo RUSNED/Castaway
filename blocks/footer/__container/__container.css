@@ -1,0 +1,6 @@
+.footer__container {
+  padding: 99.88px 70px 120px 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}

@@ -1,0 +1,10 @@
+.reviews_cards {
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 321px 364px;
+  grid-gap: 16px 16px;
+  padding: 100px 70px;
+  margin: 0;
+  list-style: none;
+}

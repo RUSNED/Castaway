@@ -1,0 +1,12 @@
+.episodes__button {
+  width: 178px;
+  height: 51px;
+  color: white;
+  border-radius: 6px;
+  background-color: rgba(17, 141, 168, 1);
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 0;
+}

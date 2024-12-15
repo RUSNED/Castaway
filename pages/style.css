@@ -28,6 +28,37 @@
 @import url(../blocks/listen/__button/_podcast/_podcast.css);
 @import url(../blocks/listen/__button/_radio/_radio.css);
 
+@import url(../blocks/episodes/__container/__container.css);
+@import url(../blocks/episodes/__title/__title.css);
+@import url(../blocks/episodes/__header/__header.css);
+@import url(../blocks/episodes/__button/__button.css);
+@import url(../blocks/episodes/__cards/__cards.css);
+@import url(../blocks/episodes/__card/__card.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/__image.css);
+@import url(../blocks/card/__button/__button.css);
+@import url(../blocks/card/__button2/__button2.css);
+@import url(../blocks/card/__header/__header.css);
+@import url(../blocks/card/__header/_little/_little.css);
+@import url(../blocks/card/__text/__text.css);
+@import url(../blocks/card/__text2/__text2.css);
+
+@import url(../blocks/reviews/__cards/__cards.css);
+@import url(../blocks/reviews/__card/__card.css);
+@import url(../blocks/reviews/__stars/__stars.css);
+@import url(../blocks/reviews/__header/__header.css);
+@import url(../blocks/reviews/__author/__author.css);
+
+@import url(../blocks/footer/__container/__container.css);
+@import url(../blocks/footer/__logo/__logo.css);
+@import url(../blocks/footer/__social_logo_insta/__social_logo_insta.css);
+@import url(../blocks/footer/__social_logo_twitter/__social_logo_twitter.css);
+@import url(../blocks/footer/__social_logo_facebook/__social_logo_facebook.css);
+@import url(../blocks/footer/__social_list/__social_list.css);
+@import url(../blocks/footer/__home_list/__social_list.css);
+@import url(../blocks/footer/__list_item/__social_list.css);
+@import url(../blocks/listen/_footer/_footer.css);
 
 
 
@@ -39,130 +70,10 @@
 
 
 
-.episodes__container {
-  display: flex;
-  flex-direction: column;
-  max-width: 1440px;
-}
 
-.episodes__title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 93px 70px 0px 70px;
-  align-items: flex-end;
-}
-.episodes__header {
-  font-family: DM Sans;
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 79.2px;
-  letter-spacing: 0.1em;
-  margin: 0;
-  color: white;
-}
-.episodes__button {
-  width: 178px;
-  height: 51px;
-  color: white;
-  border-radius: 6px;
-  background-color: rgba(17, 141, 168, 1);
-  font-family: DM Sans;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 27px;
-  padding: 0;
-}
 
-.episodes__cards {
-  max-height: 1689px;
-  max-width: 1300px;
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  padding: 64.44px 70px 0px 70px;
-  margin: 0;
-  justify-content: space-between;
-}
 
-.episodes__card {
-  flex-basis: 512px;
-  padding: 40.44px 40px 39.56px 40px;
-  border-radius: 32px;
-  background-color: rgba(0, 0, 0, 1);
-}
 
-.card {
-  display: flex;
-  flex-direction: row;
-  gap: 53px;
-}
-
-.card__image {
-  height: 100%;
-}
-
-.card__button {
-  border-radius: 6px;
-  background-color: rgba(25, 25, 25, 1);
-  color: white;
-  margin-top: 7.56px;
-  margin-bottom: 48.44px;
-  font-family: DM Sans;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
-  border-style: none;
-  padding: 0 16px;
-}
-
-.card__text {
-  font-family: DM Sans;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 27px;
-  color: rgba(17, 141, 168, 1);
-  margin: 0;
-  margin-bottom: 17.56px;
-}
-
-.card__header {
-  font-family: DM Sans;
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 70.4px;
-  letter-spacing: 0.1em;
-  color: white;
-  margin: 0;
-  padding-bottom: 28px;
-}
-.card__header_little {
-  font-size: 57px;
-}
-
-.card__text2 {
-  font-family: DM Sans;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 33px;
-  color: rgba(255, 255, 255, 0.7);
-  margin: 0;
-  padding-bottom: 18px;
-}
-
-.card__button2 {
-  width: 208px;
-  height: 51px;
-  color: white;
-  border-radius: 6px;
-  background-color: rgba(17, 141, 168, 1);
-  font-family: DM Sans;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 27px;
-  padding: 0;
-  border-style: none;
-}
 
 .hero {
   max-width: 1440px;
@@ -339,117 +250,4 @@
   padding: 26px 0px 27px 19px;
 }
 
-.reviews_cards {
-  max-width: 1300px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 321px 364px;
-  grid-gap: 16px 16px;
-  padding: 100px 70px;
-  margin: 0;
-  list-style: none;
-}
 
-.review_card {
-  background-color: rgba(0, 0, 0, 1);
-  color: #fff;
-  border-radius: 32px;
-}
-.reviews_stars {
-  display: flex;
-  flex-direction: row;
-  width: 90px;
-  padding: 54px 0px 21px 50px;
-  gap: 5px;
-}
-.reviews_header {
-  font-family: DM Sans;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 43.2px;
-  color: rgba(255, 255, 255, 1);
-  margin: 0;
-  padding: 0px 48px 19px 50px;
-  letter-spacing: 0.04em;
-}
-
-.reviews_author {
-  font-family: DM Sans;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 28.8px;
-  color: rgba(255, 255, 255, 0.7);
-  margin: 0;
-  padding-left: 50px;
-}
-
-.footer_container {
-  padding: 99.88px 70px 120px 70px;
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-}
-
-.footer_logo {
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-  padding-right: 223.14px;
-}
-
-
-.footer-social_logo_insta {
-background-image: url(../images/insta.svg);
-width: 24px;
-height: 24px;
-}
-.footer-social_logo_twitter {
-background-image: url(../images/twitter.svg);
-width: 24px;
-height: 24px;
-}
-
-.footer-social_logo_facebook {
-background-image: url(../images/facebook.svg);
-width: 24px;
-height: 24px;
-}
-
-.footer_social {
- 
-}
-.footer_social_list {
-    width: 24px;
-    height: 24px;
-    display: flex;
-  flex-direction: row;
-  gap: 10px;
-  list-style: none;
-}
-
-.footer_home_list,
-.footer_style_list {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  list-style: none;
-}
-.footer_list_item {
-  font-family: DM Sans;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 27px;
-  color: rgba(255, 255, 255, 1);
-  text-decoration: none;
-}
-
-.footer_home_list {
-  padding-right: 107px;
-}
-
-.cover-listen_buttons_footer {
-  margin: 0px 0px 0px 0px;
-  padding-left: 16px;
-}

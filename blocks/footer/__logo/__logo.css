@@ -1,0 +1,6 @@
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding-right: 223.14px;
+}
