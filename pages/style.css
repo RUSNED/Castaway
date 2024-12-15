@@ -4,174 +4,55 @@
 
 @import url(../blocks/page/page.css);
 
-.header-container {
-  max-width: 1440px;
-  max-height: 67px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 22px;
-}
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__contacts/header__contacts.css);
+@import url(../blocks/header/__contacts-list/header__contacts-list.css);
+@import url(../blocks/header/__list-item/header__list-item.css);
 
-.header-container_image {
-  max-width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-left: 50px;
-}
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__container/__container.css);
+@import url(../blocks/cover/__image/__image.css);
+@import url(../blocks/cover/__content/__content.css);
+@import url(../blocks/cover/__header/__header.css);
+@import url(../blocks/cover/__header/_underline/_underline.css);
+@import url(../blocks/cover/__header/_bold/_bold.css);
 
-.header-container-contacts {
-  min-width: 403px;
-  padding-right: 50px;
-}
+@import url(../blocks/listen/listen.css);
+@import url(../blocks/listen/__text/__text.css);
+@import url(../blocks/listen/__buttons/__buttons.css);
+@import url(../blocks/listen/__button/__button.css);
+@import url(../blocks/listen/__button/_spotify/_spotify.css);
+@import url(../blocks/listen/__button/_red/_red.css);
+@import url(../blocks/listen/__button/_soundcloud/_soundcloud.css);
+@import url(../blocks/listen/__button/_podcast/_podcast.css);
+@import url(../blocks/listen/__button/_radio/_radio.css);
 
-.header-container-contacts_list {
-  display: flex;
-  margin: 0px auto;
-  flex-direction: row;
-  gap: 40px;
-  padding: 20px;
-  color: white;
-  font-size: 17px;
-  line-height: 27px;
-  font-family: DM Sans;
-  list-style: none;
-}
 
-.header-container-contacts_list__item {
-  text-decoration: none;
-  color: inherit;
-}
-.header-container-contacts_list li:first-child {
-  color: rgba(17, 141, 168, 1);
-}
 
-.header-container-contacts_list:last-child {
-  font-size: 18px;
-}
 
-.cover {
-  padding-top: 26px;
-  max-width: 1440px;
-}
 
-.cover-container {
-  display: flex;
-  padding: 40px 70px 0px 70px;
-}
 
-.cover-container_image {
-  max-width: 100%;
-}
 
-.cover-container_content {
-  display: flex;
-  margin: 0;
-  flex-direction: column;
-  justify-content: flex-end;
-}
 
-.cover-header {
-  font-family: DM Sans;
-  font-weight: 400;
-  font-size: 70px;
-  line-height: 88px;
-  letter-spacing: 0.1em;
-  color: white;
-  padding: 0px 60px 0px 60px;
-  margin: 0;
-}
 
-.cover-header_underline {
-  display: inline-block;
-  position: relative;
-}
 
-.cover-header_underline::after {
-  content: "";
-  background-image: url(../images/underline.png);
-  width: 100%;
-  height: 11px;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  letter-spacing: 0.1em;
-}
 
-.cover-header_bold {
-  font-family: DM Sans;
-  font-size: 80px;
-  font-weight: 700;
-  line-height: 88px;
-  letter-spacing: 0.1em;
-}
 
-.cover-listen {
-  display: flex;
-  flex-direction: column;
-  padding: 90px 0px 153px 82px;
-}
-
-.cover-listen_text {
-  font-family: DM Sans;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  color: white;
-  margin: 0;
-}
-
-.cover-listen_buttons {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-top: 16px;
-}
-
-.cover-listen_button {
-  display: block;
-  width: 32px;
-  height: 32px;
-  margin-right: 16px;
-}
-
-.cover-listen_button__spotify {
-  background-image: url(../images/spotify.png);
-}
-
-.cover-listen_button__red {
-  background-image: url(../images/redaudio.png);
-}
-
-.cover-listen_button__soundcloud {
-  background-image: url(../images/sin.png);
-}
-
-.cover-listen_button__podcast {
-  background-image: url(../images/podcast.png);
-}
-
-.cover-listen_button__radio {
-  background-image: url(../images/radio.png);
-}
-
-.episodes_container {
+.episodes__container {
   display: flex;
   flex-direction: column;
   max-width: 1440px;
 }
 
-.episodes_container__header {
+.episodes__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 93px 70px 0px 70px;
   align-items: flex-end;
 }
-.episodes_header {
+.episodes__header {
   font-family: DM Sans;
   font-size: 64px;
   font-weight: 400;
@@ -180,7 +61,7 @@
   margin: 0;
   color: white;
 }
-.episodes_button {
+.episodes__button {
   width: 178px;
   height: 51px;
   color: white;
@@ -193,7 +74,7 @@
   padding: 0;
 }
 
-.episodes_container__cards {
+.episodes__cards {
   max-height: 1689px;
   max-width: 1300px;
   display: flex;
@@ -204,7 +85,7 @@
   justify-content: space-between;
 }
 
-.episodes_card {
+.episodes__card {
   flex-basis: 512px;
   padding: 40.44px 40px 39.56px 40px;
   border-radius: 32px;
@@ -217,11 +98,11 @@
   gap: 53px;
 }
 
-.card_image {
+.card__image {
   height: 100%;
 }
 
-.card_button {
+.card__button {
   border-radius: 6px;
   background-color: rgba(25, 25, 25, 1);
   color: white;
@@ -235,7 +116,7 @@
   padding: 0 16px;
 }
 
-.card_p {
+.card__text {
   font-family: DM Sans;
   font-size: 17px;
   font-weight: 400;
@@ -245,7 +126,7 @@
   margin-bottom: 17.56px;
 }
 
-.card_header {
+.card__header {
   font-family: DM Sans;
   font-size: 64px;
   font-weight: 400;
@@ -255,11 +136,11 @@
   margin: 0;
   padding-bottom: 28px;
 }
-.card_header_little {
+.card__header_little {
   font-size: 57px;
 }
 
-.card_p2 {
+.card__text2 {
   font-family: DM Sans;
   font-size: 22px;
   font-weight: 400;
@@ -269,7 +150,7 @@
   padding-bottom: 18px;
 }
 
-.card_button2 {
+.card__button2 {
   width: 208px;
   height: 51px;
   color: white;

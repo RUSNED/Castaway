@@ -1,0 +1,6 @@
+.cover__content {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+}

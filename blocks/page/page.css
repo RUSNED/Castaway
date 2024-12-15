@@ -1,9 +1,9 @@
 .page {
-    background-color: rgba(25, 25, 25, 1);
-    min-width: 320px;
-    -ms-text-size-adjust: 100%;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+  background-color: #2A2C2F;
+  min-width: 320px;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'Inter', Arial, sans-serif;
 }
-
