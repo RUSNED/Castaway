@@ -44,6 +44,24 @@
 @import url(../blocks/card/__text/__text.css);
 @import url(../blocks/card/__text2/__text2.css);
 
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__container/__container.css);
+@import url(../blocks/hero/__image/__image.css);
+@import url(../blocks/hero/__content/__content.css);
+@import url(../blocks/hero/__header/__header.css);
+@import url(../blocks/hero/__frame/__frame.css);
+@import url(../blocks/hero/__text/__text.css);
+@import url(../blocks/hero/__text2/__text2.css);
+@import url(../blocks/hero/__text3/__text3.css);
+@import url(../blocks/hero/__subscribe/__subscribe.css);
+@import url(../blocks/hero/__card/__card.css);
+@import url(../blocks/hero/__text4/__text4.css);
+@import url(../blocks/hero/__header_card/__header_card.css);
+@import url(../blocks/hero/__button/__button.css);
+@import url(../blocks/hero/__form/__form.css);
+@import url(../blocks/hero/name__form/name__form.css);
+@import url(../blocks/hero/email__form/email__form.css);
+
 @import url(../blocks/reviews/__cards/__cards.css);
 @import url(../blocks/reviews/__card/__card.css);
 @import url(../blocks/reviews/__stars/__stars.css);
@@ -75,179 +93,27 @@
 
 
 
-.hero {
-  max-width: 1440px;
-  padding-bottom: 100px;
-}
 
-.hero-container {
-  display: flex;
-  padding: 260px 70px 200px 70px;
-}
 
-.hero-container_image {
-  max-width: 100%;
-}
 
-.hero-container_content {
-  padding: 147.72px 60px 147.72px 0px;
-}
 
-.hero-header {
-  font-family: DM Sans;
-  font-weight: 400;
-  font-size: 70px;
-  line-height: 88px;
-  letter-spacing: 0.1em;
-  color: white;
-  padding: 0px 60px 0px 60px;
-  margin: 0;
-}
 
-.hero_frame {
-  width: 112px;
-  height: 112px;
-  margin-bottom: 17px;
-}
 
-.hero_p {
-  font-family: DM Sans;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 27px;
-  color: rgba(17, 141, 168, 1);
-  margin: 0;
-}
 
-.hero_header {
-  font-family: DM Sans;
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 70.4px;
-  letter-spacing: 0.1em;
-  color: white;
-  margin: 0;
-  padding-bottom: 35px;
-}
 
-.hero_p2 {
-  font-family: DM Sans;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 33px;
-  color: rgba(255, 255, 255, 0.7);
-  margin: 0;
-}
 
-.hero_p3 {
-  font-family: DM Sans;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 33px;
-  color: rgba(255, 255, 255, 0.7);
-  margin: 0;
-  padding-top: 33px;
-}
 
-.hero_subscribe {
-  max-width: 1300px;
-  height: 387px;
-  border-radius: 32px;
-  background-color: rgba(0, 0, 0, 1);
-  margin: 0 auto;
-}
 
-.hero_card {
-  display: flex;
-  flex-direction: row;
-  border-radius: 32px;
-}
 
-.hero_p4 {
-  font-family: DM Sans;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 27px;
-  color: rgba(17, 141, 168, 1);
-  margin: 0;
-  padding: 59.12px 0px 0px 60px;
-}
 
-.hero_header_card {
-  font-family: DM Sans;
-  font-size: 72px;
-  font-weight: 400;
-  line-height: 79.2px;
-  letter-spacing: 0.1em;
-  color: white;
-  margin: 0;
-  padding: 0px 151px 0px 60px;
-}
 
-.hero_button {
-  width: 87px;
-  height: 48px;
-  color: white;
-  border-radius: 6px;
-  background-color: rgba(17, 141, 168, 1);
-  font-family: DM Sans;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 27px;
-  border-style: none;
-  padding: 0;
-}
 
-.hero_form {
-  padding: 59.87px 60px 75.12px 76px;
-}
-.hero_form_class {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
 
-.name_form {
-  width: 522px;
-  height: 82px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background-color: rgba(25, 25, 25, 1);
-  border-radius: 1px;
-  color: white;
-  font-family: DM Sans;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 28.8px;
-}
 
-.email_form {
-  width: 522px;
-  height: 82px;
-  margin: 0px;
-  padding: 0;
-  border: 0;
-  background-color: rgba(25, 25, 25, 1);
-  border-radius: 1px;
-}
 
-.name_form::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-  font-family: DM Sans;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 28.8px;
-  padding: 26px 0px 27px 19px;
-}
 
-.email_form::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-  font-family: DM Sans;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 28.8px;
-  padding: 26px 0px 27px 19px;
-}
+
+
+
 
 

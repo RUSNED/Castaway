@@ -1,0 +1,23 @@
+.name__form {
+  width: 522px;
+  height: 82px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: rgba(25, 25, 25, 1);
+  border-radius: 1px;
+  color: white;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.name__form::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  padding: 26px 0px 27px 19px;
+}
