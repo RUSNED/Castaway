@@ -54,13 +54,16 @@
 @import url(../blocks/hero/__text2/__text2.css);
 @import url(../blocks/hero/__text3/__text3.css);
 @import url(../blocks/hero/__subscribe/__subscribe.css);
+@import url(../blocks/hero/container_su/__subscribe.css);
 @import url(../blocks/hero/__card/__card.css);
+@import url(../blocks/hero/__card_content/__card_content.css);
 @import url(../blocks/hero/__text4/__text4.css);
 @import url(../blocks/hero/__header_card/__header_card.css);
 @import url(../blocks/hero/__button/__button.css);
 @import url(../blocks/hero/__form/__form.css);
 @import url(../blocks/hero/name__form/name__form.css);
 @import url(../blocks/hero/email__form/email__form.css);
+
 
 @import url(../blocks/reviews/__cards/__cards.css);
 @import url(../blocks/reviews/__card/__card.css);

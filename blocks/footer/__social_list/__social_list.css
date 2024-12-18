@@ -1,8 +1,13 @@
+.footer__social {
+  display: block;
+}
+
 .footer__social_list {
-    width: 24px;
-    height: 24px;
-    display: flex;
+  width: 24px;
+  height: 24px;
+  display: flex;
   flex-direction: row;
   gap: 10px;
   list-style: none;
 }
+
