@@ -2,10 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap");
 
-@import url(./blocks/page/page.css);
+@import url(../blocks/page/page.css);
 
-@import url(blocks/header/__container/header__container.css);
-@import url(../../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__image/header__image.css);
 @import url(../blocks/header/__contacts/header__contacts.css);
 @import url(../blocks/header/__contacts-list/header__contacts-list.css);
 @import url(../blocks/header/__list-item/header__list-item.css);
