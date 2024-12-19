@@ -15,8 +15,8 @@
 @import url(../blocks/cover/image/image.css);
 @import url(../blocks/cover/content/content.css);
 @import url(../blocks/cover/header/header.css);
-@import url(../blocks/cover/header/_underline/underline.css);
-@import url(../blocks/cover/header/_bold/bold.css);
+@import url(../blocks/cover/header/underline/underline.css);
+@import url(../blocks/cover/header/bold/bold.css);
 
 @import url(../blocks/listen/listen.css);
 @import url(../blocks/listen/text/text.css);
