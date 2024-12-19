@@ -4,11 +4,11 @@
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/header/__container/header__container.css);
-@import url(../blocks/header/__image/header__image.css);
-@import url(../blocks/header/__contacts/header__contacts.css);
-@import url(../blocks/header/__contacts-list/header__contacts-list.css);
-@import url(../blocks/header/__list-item/header__list-item.css);
+@import url(../blocks/header/container/container.css);
+@import url(../blocks/header/image/image.css);
+@import url(../blocks/header/contacts/contacts.css);
+@import url(../blocks/header/contacts-list/contacts-list.css);
+@import url(../blocks/header/list-item/list-item.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__container/container.css);
