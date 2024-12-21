@@ -1,5 +1,8 @@
-.page {
-  background-color: #2A2C2F;
+body {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0;
+  background-color:rgba(25, 25, 25, 1);
   min-width: 320px;
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;

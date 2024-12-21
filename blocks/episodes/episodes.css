@@ -1,0 +1,8 @@
+ .episodes {
+  display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin-bottom: 260px;
+     }
+    
+   

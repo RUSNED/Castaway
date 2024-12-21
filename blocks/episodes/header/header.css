@@ -7,3 +7,9 @@
   margin: 0;
   color: white;
 }
+
+@media (max-width:1090px) {
+  .episodes__header {
+    font-size: 40px;
+  }
+}

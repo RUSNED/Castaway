@@ -1,5 +1,4 @@
 .episodes__cards {
-  max-height: 1689px;
   max-width: 1300px;
   display: flex;
   flex-direction: column;
@@ -7,4 +6,10 @@
   padding: 64.44px 70px 0px 70px;
   margin: 0;
   justify-content: space-between;
+}
+
+@media (max-width:1090px) {
+  .episodes__cards {
+    padding: 40px 70px 0px 70px;
+  }
 }

@@ -8,3 +8,8 @@
   padding: 0px 48px 19px 50px;
   letter-spacing: 0.04em;
 }
+
+@media (max-width:1415px) {
+  .reviews_header {
+    font-size: 30px;
+}

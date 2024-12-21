@@ -11,3 +11,11 @@
   border-style: none;
   padding: 0;
 }
+
+.hero__button:hover {
+  cursor: pointer;
+}
+
+.hero__button:active {
+  transform: scale(0.98);
+}

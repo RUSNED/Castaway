@@ -8,3 +8,9 @@
   margin: 0;
   padding-bottom: 28px;
 }
+
+@media (max-width:1090px) {
+  .card__header {
+    font-size: 50px;
+  }
+}

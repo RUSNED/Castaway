@@ -3,3 +3,12 @@
   flex-direction: row;
   gap: 53px;
 }
+
+@media (max-width:1090px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+}

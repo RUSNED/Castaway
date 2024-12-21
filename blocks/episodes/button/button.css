@@ -11,3 +11,10 @@
   padding: 0;
   border-style: none;
 }
+
+.episodes__button:hover {
+  cursor: pointer;
+}
+.episodes__button:active {
+  transform: scale(0.98);
+}

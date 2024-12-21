@@ -1,3 +1,5 @@
 .hero__content {
-  padding: 147.72px 60px 147.72px 0px;
+  max-width: 590px;
+  max-height: 743px;
+  padding: 147.72px 0px 147.72px 0px;
 }
