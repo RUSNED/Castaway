@@ -1,4 +1,17 @@
 .header__contacts {
-  min-width: 403px;
+
   padding-right: 50px;
 }
+
+@media (max-width:680px) {
+  .header__contacts {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width:510px) {
+  .header__contacts {
+    padding: 0px;
+  }
+  }
+  

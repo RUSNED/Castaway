@@ -3,3 +3,9 @@
   flex-direction: row;
   border-radius: 32px;
 }
+
+@media (max-width:1090px) {
+  .hero__card {
+   flex-direction: column;
+  }
+}

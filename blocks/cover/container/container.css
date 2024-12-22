@@ -5,3 +5,15 @@
   justify-content: space-between;
   gap: 60px;
 }
+
+@media (max-width:1090px) {
+  .cover__container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:510px) {
+  .cover__container {
+    padding: 40px 30px 0px 30px;
+  }
+  }

@@ -5,4 +5,8 @@
     margin-bottom: 260px;
      }
     
-   
+     @media (max-width:1300px) {
+      .episodes {
+        margin-bottom: 100px;
+      }
+    }

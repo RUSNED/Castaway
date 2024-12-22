@@ -3,3 +3,9 @@
   flex-direction: column;
   padding: 90px 0px 153px 20px;
 }
+
+@media (max-width:1090px) {
+  .listen {
+    padding: 20px;
+  }
+}

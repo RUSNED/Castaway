@@ -7,3 +7,15 @@
   margin: 0;
   margin-bottom: 17.56px;
 }
+
+@media (max-width:1090px) {
+  .card__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:650px) {
+  .card__text {
+    font-size: 12px;
+  }
+}

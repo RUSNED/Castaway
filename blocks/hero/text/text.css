@@ -6,3 +6,9 @@
   color: rgba(17, 141, 168, 1);
   margin-bottom: 5px;
 }
+
+@media (max-width:1210px) {
+  .hero__text {
+    font-size: 14px;
+  }
+}
