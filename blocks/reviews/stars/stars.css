@@ -1,7 +1,0 @@
-.reviews_stars {
-  display: flex;
-  flex-direction: row;
-  width: 90px;
-  padding: 54px 0px 21px 50px;
-  gap: 5px;
-}
