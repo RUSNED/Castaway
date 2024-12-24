@@ -1,0 +1,15 @@
+.header__container {
+    max-width: 1440px;
+    max-height: 67px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 22px;
+  }
+
+
+  @media (max-width:680px) {
+    .header__container {
+      flex-direction: column;
+    }
+  }

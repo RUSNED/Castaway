@@ -1,0 +1,11 @@
+.cover__image {
+  position: relative; 
+  max-width: 100%;
+
+}
+
+@media (max-width:1090px) {
+  .cover__image {
+    width: 100%;
+  }
+}

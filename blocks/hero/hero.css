@@ -1,0 +1,10 @@
+.hero {
+  max-width: 1440px;
+  margin-bottom: 200px;
+}
+
+@media (max-width:1300px) {
+  .hero {
+    margin-bottom: 80px;
+  }
+}
