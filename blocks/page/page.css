@@ -8,6 +8,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'DM sans', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-style: normal;
   box-sizing: border-box;
 }
