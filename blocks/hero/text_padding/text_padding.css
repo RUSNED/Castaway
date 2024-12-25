@@ -1,5 +1,4 @@
-  .hero__text3 {
-    font-family: DM Sans;
+  .hero__text_padding {
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
@@ -8,8 +7,3 @@
     padding-top: 33px;
   }
 
-  @media (max-width:1210px) {
-    .hero__text3 {
-      font-size: 18px;
-    }
-  }

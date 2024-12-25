@@ -38,11 +38,11 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/image/image.css);
 @import url(../blocks/card/button/button.css);
-@import url(../blocks/card/button2/button2.css);
+@import url(../blocks/card/button_big/button_big.css);
 @import url(../blocks/card/header/header.css);
 @import url(../blocks/card/header/_little/little.css);
+@import url(../blocks/card/subtitle/card_subtitle.css);
 @import url(../blocks/card/text/text.css);
-@import url(../blocks/card/text2/text2.css);
 
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/imagecontainer/imagecontainer.css);
@@ -51,14 +51,14 @@
 @import url(../blocks/hero/content/content.css);
 @import url(../blocks/hero/header/header.css);
 @import url(../blocks/hero/frame/frame.css);
+@import url(../blocks/hero/subtitle/subtitle.css);
 @import url(../blocks/hero/text/text.css);
-@import url(../blocks/hero/text2/text2.css);
-@import url(../blocks/hero/text3/text3.css);
+@import url(../blocks/hero/text_padding/text_padding.css);
 @import url(../blocks/hero/subscribe/subscribe.css);
 @import url(../blocks/hero/container_su/subscribe.css);
 @import url(../blocks/hero/card/card.css);
 @import url(../blocks/hero/card_content/card_content.css);
-@import url(../blocks/hero/text4/text4.css);
+@import url(../blocks/hero/subtitle_sib/subtitle_sib.css);
 @import url(../blocks/hero/header_card/header_card.css);
 @import url(../blocks/hero/button/button.css);
 @import url(../blocks/hero/form/form.css);
