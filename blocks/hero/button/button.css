@@ -1,0 +1,25 @@
+.hero__button {
+  width: 87px;
+  height: 48px;
+  border-radius: 6px;
+  background-color: var(--color-blue);
+  font-size: 17px;
+  line-height: 27px;
+  border-style: none;
+  padding: 0;
+}
+
+.hero__button:hover {
+  cursor: pointer;
+}
+
+.hero__button:active {
+  transform: scale(0.98);
+}
+
+
+@media (max-width:1090px) {
+  .hero__button{
+    max-width: 380px;
+  }
+}

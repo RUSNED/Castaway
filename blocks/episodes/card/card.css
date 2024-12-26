@@ -1,0 +1,19 @@
+.episodes__card {
+  padding: 40.44px 40px 39.56px 40px;
+  border-radius: 32px;
+  background-color: var(--color-dark);
+  list-style: none;
+}
+
+@media (max-width:1210px) {
+  .episodes__card {
+    padding: 50px 40px 70px 40px;
+  }
+  
+}
+
+@media (max-width:1090px) {
+  .card__image {
+    padding-top: 0px;
+  }
+}

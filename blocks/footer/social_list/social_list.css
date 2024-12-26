@@ -1,0 +1,13 @@
+.footer__social {
+  display: block;
+}
+
+.footer__social_list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
