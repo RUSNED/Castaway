@@ -1,120 +1,67 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/header/container/container.css);
-@import url(../blocks/header/image/image.css);
-@import url(../blocks/header/contacts/contacts.css);
-@import url(../blocks/header/contacts-list/contacts-list.css);
-@import url(../blocks/header/list-item/list-item.css);
+.header-container {
+    max-width: 1440px;
+    max-height:67px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 22px;
 
-@import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/container/container.css);
-@import url(../blocks/cover/image/image.css);
-@import url(../blocks/cover/content/content.css);
-@import url(../blocks/cover/header/header.css);
-@import url(../blocks/cover/header/underline/underline.css);
-@import url(../blocks/cover/header/bold/bold.css);
+}
 
-@import url(../blocks/listen/listen.css);
-@import url(../blocks/listen/text/text.css);
-@import url(../blocks/listen/buttons/buttons.css);
-@import url(../blocks/listen/button/button.css);
-@import url(../blocks/listen/button/spotify/spotify.css);
-@import url(../blocks/listen/button/red/red.css);
-@import url(../blocks/listen/button/soundcloud/soundcloud.css);
-@import url(../blocks/listen/button/podcast/podcast.css);
-@import url(../blocks/listen/button/radio/radio.css);
+.header-container_image {
+  width: 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 50px;
+}
 
-@import url(../blocks/episodes/episodes.css);
-@import url(../blocks/episodes/container/container.css);
-@import url(../blocks/episodes/title/title.css);
-@import url(../blocks/episodes/header/header.css);
-@import url(../blocks/episodes/button/button.css);
-@import url(../blocks/episodes/cards/cards.css);
-@import url(../blocks/episodes/card/card.css);
+.header-container-contacts {
+   min-width: 403px;
+   padding-right: 50px;
+}
 
-@import url(../blocks/card/card.css);
-@import url(../blocks/card/image/image.css);
-@import url(../blocks/card/button/button.css);
-@import url(../blocks/card/button_big/button_big.css);
-@import url(../blocks/card/header/header.css);
-@import url(../blocks/card/header/_little/little.css);
-@import url(../blocks/card/subtitle/card_subtitle.css);
-@import url(../blocks/card/text/text.css);
+.header-container-contacts_list {
+    display: flex;
+    margin: 0px auto;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+    color: white;
+    font-size: 17px;    
+    line-height: 27px;
+    font-family: DM Sans;
+    list-style: none;
+}
+.header-container-contacts_list li:first-child {
+    color: rgba(17, 141, 168, 1);
+}
 
-@import url(../blocks/hero/hero.css);
-@import url(../blocks/hero/imagecontainer/imagecontainer.css);
-@import url(../blocks/hero/container/container.css);
-@import url(../blocks/hero/image/image.css);
-@import url(../blocks/hero/content/content.css);
-@import url(../blocks/hero/header/header.css);
-@import url(../blocks/hero/frame/frame.css);
-@import url(../blocks/hero/subtitle/subtitle.css);
-@import url(../blocks/hero/text/text.css);
-@import url(../blocks/hero/text_padding/text_padding.css);
-@import url(../blocks/hero/subscribe/subscribe.css);
-@import url(../blocks/hero/container_su/subscribe.css);
-@import url(../blocks/hero/card/card.css);
-@import url(../blocks/hero/card_content/card_content.css);
-@import url(../blocks/hero/subtitle_sib/subtitle_sib.css);
-@import url(../blocks/hero/header_card/header_card.css);
-@import url(../blocks/hero/button/button.css);
-@import url(../blocks/hero/form/form.css);
-@import url(../blocks/hero/name__form/name__form.css);
-@import url(../blocks/hero/email__form/email__form.css);
+.header-container-contacts_list:last-child {
+    font-size: 18px;
+}
 
+.cover {
+    padding-top: 26px;
+}
 
-@import url(../blocks/reviews/cards/cards.css);
-@import url(../blocks/reviews/card/card.css);
-@import url(../blocks/reviews/stars/stars.css);
-@import url(../blocks/reviews/header/header.css);
-@import url(../blocks/reviews/author/author.css);
+.cover-container {
+   display: flex;
+   flex-direction: row;
+   padding: 40px 70px 0px 70px;
+}
 
-@import url(../blocks/footer/container/container.css);
-@import url(../blocks/footer/logo/logo.css);
-@import url(../blocks/footer/social_list/social_list.css);
-@import url(../blocks/footer/home_list/social_list.css);
-@import url(../blocks/footer/list_item/social_list.css);
-@import url(../blocks/listen/footer/footer.css);
+.cover-container_image {
+    max-width: 650px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.cover-container_content {
+    padding: 131.42px 60px 131.44px 60px;
+    
+}
