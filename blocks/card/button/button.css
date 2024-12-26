@@ -1,10 +1,10 @@
 .card__button {
   border-radius: 6px;
-  background-color: rgba(25, 25, 25, 1);
+  color: var(--color-light);
+  background-color:var(--color-dark-grey);
   margin-top: 7.56px;
   margin-bottom: 48.44px;
   font-size: 18px;
-  font-weight: 400;
   line-height: 27px;
   border-style: none;
   padding: 0 16px;

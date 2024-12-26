@@ -1,6 +1,6 @@
 .cover__header_bold {
   font-size: 80px;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   line-height: 88px;
   letter-spacing: 0.1em;
 }
