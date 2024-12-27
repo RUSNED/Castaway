@@ -1,0 +1,14 @@
+.hero__header {
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+
+@media (max-width:1210px) {
+    .hero__header {
+      font-size: 50px;
+    }
+  }

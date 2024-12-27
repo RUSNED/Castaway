@@ -1,0 +1,12 @@
+.hero__subtitle {
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--color-blue);
+  margin-bottom: 5px;
+}
+
+@media (max-width:1210px) {
+  .hero__subtitle {
+    font-size: 14px;
+  }
+}

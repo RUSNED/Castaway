@@ -1,0 +1,11 @@
+.hero__content {
+  max-width: 590px;
+  padding: 147.72px 0px 147.72px 0px;
+}
+
+
+@media (max-width:1300px) {
+  .hero__content {
+    padding: 50px 0px 70px 0px;
+  }
+}
