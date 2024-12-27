@@ -1,0 +1,11 @@
+.hero__frame {
+  width: 112px;
+  height: 112px;
+}
+
+@media (max-width:1210px) {
+  .hero__frame {
+    width: 90px;
+    height: 90px;
+  }
+}

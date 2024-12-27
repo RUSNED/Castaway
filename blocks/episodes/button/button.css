@@ -1,0 +1,18 @@
+.episodes__button {
+  width: 178px;
+  height: 51px;
+  color: var(--color-light);
+  border-radius: 6px;
+  background-color: var(--color-blue);
+  font-size: 17px;
+  line-height: 27px;
+  padding: 0;
+  border-style: none;
+}
+
+.episodes__button:hover {
+  cursor: pointer;
+}
+.episodes__button:active {
+  transform: scale(0.98);
+}
